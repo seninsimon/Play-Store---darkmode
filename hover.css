@@ -1,0 +1,21 @@
+
+.preview
+{
+  transition: transform 0.5s ease;
+}
+.preview:hover
+{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card1:hover,.card2:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card1,.card2
+{
+    transition: transform 0.5s ease;
+}

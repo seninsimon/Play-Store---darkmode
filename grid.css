@@ -1,0 +1,50 @@
+.grid {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid img {
+    border-radius: 10px;
+    width: 400px;
+}
+
+@media(max-width:1120px)
+{
+    .grid{
+        flex-wrap: wrap;
+    }
+}
+
+.dp img {
+    height: 60px;
+    width: 60px;
+}
+
+.down {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.titles {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title2,
+.title3 {
+    color: grey;
+    font-size: 13px;
+}
+
+.sec2
+{
+    margin: 50px 0px;
+}
+

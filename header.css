@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    height: 200vh;
+    padding-top: 64px;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+.header a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiles a {
+    display: flex;
+    height: 64px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiles a:hover{
+  color: rgb(121, 255, 173)
+  
+}
+
+.tiles a:active
+{
+    color: green;
+    border-bottom:1px solid green;
+}
+
+.header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    box-shadow: 5px 3px 10px rgba(182, 180, 180, 0.4);
+
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.playstorelogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.googleplay-logo {
+    height: 40px;
+    width: 40px;
+}
+
+.googleplay
+{
+    font-size: 20px;
+    font-weight:300;
+}
+
+.search,
+.help {
+    height: 20px;
+    width: 20px;
+}
+
+.profile-pic {
+
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+
+.top-right {
+    cursor: pointer;
+
+}
+
+.ham
+{
+    display: none;
+    height: 30px;
+    width: 30px;
+}
+.ham:hover
+{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media(max-width:740px)
+{
+    .tiles,.search,.help,.profile-pic
+    {
+        display: none;
+    }
+    .ham
+    {
+        display: block;
+    }    
+}
+
+
+
+
+
+
